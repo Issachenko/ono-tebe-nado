@@ -1,17 +1,42 @@
-.header{
-  margin: ;
+body{
+  background-color: black;
 }
+
+.header{
+  background-color: #ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 92px 24px 96px 24px;
+}
+
 .header__menu__list{
   display: flex;
   justify-content:flex-start;
-  margin: 92px 24px 96px 24px;
-	gap: 13px;
-  list-style: none;
-  font-family: "Raleway", sans-serif;
-  font-weight: 400;
+	gap: 30px;
+  list-style: circle;
   font-size: 18px;
+  margin-right: 36px;
+  font-style: normal;
+
 }
-.header__menu__img{
-  width: 7px;
+.header__links-list-item_no-bullet{
+  list-style: none;
+  text-decoration: none;
 }
 
+.header__logo__img{
+width: 148px;
+height: 105px;
+left: 454px;
+opacity: 0px;
+}
+
+.address{
+  display: flex;
+  flex-direction: column;
+  margin-left: 184px;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24.3px;
+}
