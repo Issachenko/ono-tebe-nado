@@ -92,4 +92,24 @@ background-position: center;
   display: flex;
   color: #ffff;
   text-transform:uppercase;
+
+  
+}
+
+.cover__description-text{
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.2em;
+}
+
+.bet-button{
+  font-size: 22px;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 12px 32px 11px 31px;
+  border: 1px solid #ffffff;
+  width: 256px;
+  height: 51px;
 }
