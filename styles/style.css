@@ -1,24 +1,22 @@
 body{
-  background-color: black;
+  background-color: rgb(166, 166, 166);
 }
 
 .header{
+  padding: 92px 24px 90px 24px;
   background-color: #ffff;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 92px 24px 96px 24px;
+  align-items: center
 }
 
 .header__menu__list{
   display: flex;
-  justify-content:flex-start;
-	gap: 30px;
+  gap: 33px;
   list-style: circle;
   font-size: 18px;
-  margin-right: 36px;
   font-style: normal;
-
+  padding-left: 27px;
+  padding-right: 36px;
 }
 .header__links-list-item_no-bullet{
   list-style: none;
@@ -26,58 +24,61 @@ body{
 }
 
 .header__logo__img{
-width: 148px;
-height: 105px;
-left: 454px;
-opacity: 0px;
+  width: 148px;
+  height: 105px;
 }
 
 .address{
-  display: flex;
-  flex-direction: column;
-  margin-left: 184px;
+  padding-left: 187px;
   font-size: 18px;
   font-style: normal;
 }
 
 .address__link{
+  display: flex;
+  flex-direction: column;
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
 } 
-.cover{
-width: 1100px;
-height: 757px;
-background-image: url(../images/cover.jpg);
-background-size: cover;
-background-position: center;
-}
 
-.overlay{
-  width: 1100px;
-  height: 757px;
+.cover{
+  display: flex;
+  flex-direction: column;
   background-color: rgba(0, 0, 0, 0.5);
+  padding: 165px 50px 51px 50px;
+  position: relative;
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .cover__title{
   color: #ffff;
   font-size: 100px;
   text-transform: uppercase;
-  padding: 165px 50px 237px 50px;
   letter-spacing:0.3em;
+  
+}
+
+.overlay{
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .accent-span{
   display: block;
 }
-
 .text-center{
   text-align: center;
-  line-height: 1;
+  padding-top: 11px;
 }
-
 .text-right{
   text-align: right;
-  line-height: 1;
+  padding-top: 2px;
 }
 
 .letter-spacing-extended{
@@ -90,20 +91,22 @@ background-position: center;
 
 .cover__description{
   display: flex;
+  justify-content: space-between;
   color: #ffff;
-  text-transform:uppercase;
 
-  
 }
 
 .cover__description-text{
   font-size: 22px;
   font-weight: 400;
-  line-height: 28px;
-  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  padding-top: 140px;
+  padding-left: 29px;
+  word-spacing:18px;
 }
 
 .bet-button{
+  text-transform: uppercase;
   font-size: 22px;
   color: white;
   font-weight: 500;
@@ -112,4 +115,6 @@ background-position: center;
   border: 1px solid #ffffff;
   width: 256px;
   height: 51px;
+  margin-top: 128px;
 }
+
