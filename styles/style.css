@@ -30,9 +30,13 @@ body{
 }
 
 .address{
+  position: relative;
   padding-left: 187px;
   font-size: 18px;
   font-style: normal;
+  padding-bottom: 10px;
+  line-height: 1.3;
+  letter-spacing:0.01em;
 }
 
 .address__link{
@@ -116,8 +120,7 @@ body{
   text-decoration: none;
   padding: 12px 32px 11px 31px;
   border: 1px solid #ffffff;
-  width: 256px;
-  height: 51px;
+
   margin-top: 128px;
 }
 
@@ -259,9 +262,11 @@ body{
 }
 
 .lots__look-more-link{
+  position:absolute;
   font-size: 20px;
   font-weight: 400;
   padding-left: 42px;
+  padding-top: 31px;
 }
 
 .card-link{
@@ -270,16 +275,15 @@ body{
 
 .about{
   background-color: #ffff;
-  padding-top: 212px;
+  padding-top: 238px;
   padding-right: 63px;
+  
 }
 
 .about__column{
   display: grid;
-  grid-template-columns: 200px auto 1fr;
-  gap: 20px;
+  grid-template-columns: 200px 900px 1fr;
   width: 100%;
-  padding-top: ;
 }
 
 .about__logo{
@@ -290,7 +294,6 @@ body{
   width: 240px;
   height: 240px;
   padding: 50px 50px 50px 50px;
-  margin-bottom: px;
   margin-left: 71px;
 }
 
@@ -306,20 +309,28 @@ body{
   font-weight: 800;
   text-transform: uppercase;
   padding-top: 100px;
-  padding-left: 164px;
+  padding-left: 185px;
 }
 
 .about__text{
+  position: relative;
   font-size: 20px;
   font-weight: 400;
   grid-column: 2/-1;
-  padding-top: 81px;
-  padding-left: 164px;
+  padding-top: 98px;
+  padding-left: 185px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+
+
 }
 .about__text_1{
   font-size: 20px;
   font-weight: 400;
   grid-column: 2/-1;
-  padding-left: 164px;
- 
+  padding-left: 185px;
+  padding-top: 24px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
 }
+
