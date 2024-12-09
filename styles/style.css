@@ -2,19 +2,16 @@
 body{
   background-color: rgb(162, 160, 160);
 }
-
 .header{
   background-color: #ffff;
   display: flex;
   align-items: center;
   padding: 94px 24px;
 }
-
 .header__menu{
   font-size: 18px;
   font-style: normal;
 }
-
 .header__links-list{
   display: flex;
   list-style: circle;
@@ -23,16 +20,13 @@ body{
   padding-right: 39px;
   padding-top: 2px;
 }
-
 .header__links-list-item_no-bullet{
   list-style-type: none;
 }
-
 .header__link{
   line-height:22px;
   letter-spacing: 0.01em;
 }
-
 .header__logo{
   background-image: url(/images/logo-black.svg);
   background-repeat: no-repeat;
@@ -40,7 +34,6 @@ body{
   height: 105px;
   padding-right: 280px;
 }
-
 .header__address{
   display: flex;
   flex-direction: column;
@@ -51,12 +44,10 @@ body{
   text-decoration: none;
   font-style: normal;
 }
-
 .address__link{
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
 }
-
 .cover{
   padding: 165px 50px 49px 50px;
   background-image: url(/images/cover.jpg);
@@ -66,7 +57,6 @@ body{
   position: relative;
   z-index: 1;
 }
-
 .overlay{
   position: absolute;
   background-color: rgba(0, 0, 0, 0.5);
@@ -77,44 +67,36 @@ body{
   left: 0;
   z-index: -1;
 }
-
 .cover__title{
   letter-spacing: 0.3em;
   font-size: 100px;
   text-transform: uppercase;
   color: #ffff;
 }
-
 .aligned-text{
   display: block;
 }
-
 .aligned-text_center{
   text-align: center;
   line-height: 1;
   padding-top: 18px;
 }
-
 .aligned-text_right{
   text-align: right;
   line-height: 1;
   padding-top: 18px;
 }
-
 .letter-spacing-extended{
   letter-spacing: 0.6em
 }
-
 .no-letter-spacing{
   letter-spacing: 0em
 }
-
 .cover__description{
   display: flex;
   justify-content: space-between;
   padding-top: 135px;
 }
-
 .cover__description-text{
   color: #ffff;
   font-size: 22px;
@@ -123,7 +105,6 @@ body{
   padding-top: 13px;
   padding-left: 30px;
 }
-
 .bet-button{
   font-size: 22px;
   color: #ffff;
@@ -132,17 +113,14 @@ body{
   padding: 12px 32px 15px 31px;
   border: 1px solid #ffffff;
 }
-
 .lots{ /*вся секция*/
   background-color: #ffff;
 }
-
 .lots__heading{ /*заголовок секции*/
   font-size: 40px;
   text-transform: uppercase;
   padding: 180px 0px 25px 65px;
 }
-
 .lots__card-list{ /*список карточек*/
   display: flex;
   justify-content: center;
@@ -150,20 +128,17 @@ body{
   gap: 24px;
   height: 100%;
 }
-
 .lots__card-list-item{ /*пункт списка карточки*/
   list-style: none;
   width: 334px;
   min-height: 563px;
   display: flex;
 }
-
 .card-link{ /*ссылка, обрамляющая карточку*/
   text-decoration: none;
   display: flex;
   height: 100%;
 }
-
 .card{ /*карточка*/
   display: flex;
   flex-direction: column;
@@ -174,40 +149,34 @@ body{
   position: relative;
   z-index: 3;
 }
-
 .card_type_film{ /*классы, чтобы задать определённый фон каждой из карточек*/
   background-image: url(/images/card-lot-01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-
 .card_type_book{ /*классы, чтобы задать определённый фон каждой из карточек*/
   background-image: url(/images/card-lot-02.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-
 .card_type_picture{ /*классы, чтобы задать определённый фон каждой из карточек*/
   background-image: url(/images/card-lot-03.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-
 .card__title{ /*заголовок карточки*/
   font-size: 22px;
   color: #ffff;
   text-transform: uppercase;
   text-decoration:underline;
 }
-
 .card__text{ /*текст карточки*/
   font-size: 20px;
   color: #ffff;
 }
-
 .lots__look-more-link{ /*ссылка «Посмотреть больше*/
   display: block;
   padding-top: 33px;
@@ -215,7 +184,6 @@ body{
   font-size: 20px;
   font-weight: 400;
 }
-
 .about{ /*вся секция*/
   display: grid;
   grid-template-columns:334px 1fr;
@@ -225,7 +193,6 @@ body{
   padding-right: 50px;
   padding-bottom: 0;
 }
-
 .about__logo{ /*контейнер с логотипом*/
   background-position: center;
   background: rgb(0, 0, 0);
@@ -235,17 +202,14 @@ body{
   padding: 65px 45px;
   margin-left: 20px;
 }
-
 .about__logo-image{ /*изображение логотипа*/
   justify-content: center;
 }
-
 .about__title{ /*заголовок секции*/
 font-size: 40px;
 text-transform: uppercase;
 padding-top: 104px;
 }
-
 .about__text{ /*блок для текстов секции*/
   display: flex;
   flex-direction: column;
@@ -253,7 +217,6 @@ padding-top: 104px;
   gap: 25px;
   padding-top: 100px;
 }
-
 .footer{
   background-color: #ffff;
   display: flex;
@@ -261,26 +224,21 @@ padding-top: 104px;
   padding-top: 180px;
   padding-bottom: 88px;
 }
-
 .footer__menu-list-item{
   list-style-type: none; 
   padding-left: 40px;
   text-align: center;
 }
-
 .footer__menu-link{
   font-size: 18px;
 }
-
 .footer__menu-link_activ{
   text-decoration: none;
 }
-
 .footer__social-link{
   display: inline-flex;
   padding-right: 46px;
 }
-
 .footer__social-icon{
   width: 48px;
   height: 48px;
