@@ -36,7 +36,7 @@ body {
   width: 148px;
   height: 105px;
   padding-right: 280px;
-  background-image: url(/images/logo-black.svg);
+  background-image: url(../images/logo-black.svg);
   background-repeat: no-repeat;
 }
 
@@ -60,7 +60,7 @@ body {
   position: relative;
   z-index: 1;
   padding: 165px 50px 49px 50px;
-  background-image: url(/images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -133,19 +133,16 @@ body {
 }
 
 .lots {
-  /*вся секция*/
   background-color: #ffff;
 }
 
 .lots__heading {
   padding: 180px 0px 25px 65px;
-  /*заголовок секции*/
   font-size: 40px;
   text-transform: uppercase;
 }
 
 .lots__card-list {
-  /*список карточек*/
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -157,21 +154,18 @@ body {
   display: flex;
   width: 334px;
   min-height: 563px;
-  /*пункт списка карточки*/
   list-style: none;
 }
 
 .card-link {
   display: flex;
   height: 100%;
-  /*ссылка, обрамляющая карточку*/
   text-decoration: none;
 }
 
 .card {
   position: relative;
   z-index: 3;
-  /*карточка*/
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -181,24 +175,21 @@ body {
 }
 
 .card_type_film {
-  /*классы, чтобы задать определённый фон каждой из карточек*/
-  background-image: url(/images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .card_type_book {
-  /*классы, чтобы задать определённый фон каждой из карточек*/
-  background-image: url(/images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .card_type_picture {
-  /*классы, чтобы задать определённый фон каждой из карточек*/
-  background-image: url(/images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -206,7 +197,6 @@ body {
 
 .card__title {
   color: #ffff;
-  /*заголовок карточки*/
   font-size: 22px;
   text-decoration: underline;
   text-transform: uppercase;
@@ -214,12 +204,10 @@ body {
 
 .card__text {
   color: #ffff;
-  /*текст карточки*/
   font-size: 20px;
 }
 
 .lots__look-more-link {
-  /*ссылка «Посмотреть больше*/
   display: block;
   font-size: 20px;
   font-weight: 400;
@@ -228,7 +216,6 @@ body {
 }
 
 .about {
-  /*вся секция*/
   display: grid;
   grid-template-columns: 334px 1fr;
   padding-top: 178px;
@@ -245,24 +232,20 @@ body {
   border-radius: 50%;
   padding: 65px 45px;
   background: rgb(0, 0, 0);
-  /*контейнер с логотипом*/
   background-position: center;
 }
 
 .about__logo-image {
-  /*изображение логотипа*/
   justify-content: center;
 }
 
 .about__title {
   padding-top: 104px;
-  /*заголовок секции*/
   font-size: 40px;
   text-transform: uppercase;
 }
 
 .about__text {
-  /*блок для текстов секции*/
   display: flex;
   flex-direction: column;
   gap: 25px;
