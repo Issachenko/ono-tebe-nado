@@ -5,8 +5,9 @@ body {
 .header {
   display: flex;
   align-items: center;
-  padding: 94px 24px;
+  padding: 92px 24px;
   background-color: #ffff;
+  z-index: -1;
 }
 
 .header__menu {
@@ -33,11 +34,13 @@ body {
 }
 
 .header__logo {
+  padding-right: 131px;
+}
+
+.header__logo-image {
   width: 148px;
   height: 105px;
-  padding-right: 280px;
-  background-image: url(../images/logo-black.svg);
-  background-repeat: no-repeat;
+  padding-right: 10px;
 }
 
 .header__address {
