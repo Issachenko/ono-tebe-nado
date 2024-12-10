@@ -1,19 +1,19 @@
 body {
   background-color: rgb(162, 160, 160);
 }
-
+  
 .header {
   display: flex;
   align-items: center;
   padding: 94px 24px;
   background-color: #ffff;
 }
-
+  
 .header__menu {
   font-size: 18px;
   font-style: normal;
 }
-
+  
 .header__links-list {
   display: flex;
   gap: 31px;
@@ -39,7 +39,7 @@ body {
   background-image: url(/images/logo-black.svg);
   background-repeat: no-repeat;
 }
-
+  
 .header__address {
   display: flex;
   flex-direction: column;
@@ -221,10 +221,10 @@ body {
 .lots__look-more-link {
   /*ссылка «Посмотреть больше*/
   display: block;
+  font-size: 20px;
+  font-weight: 400;
   padding-top: 33px;
   padding-left: 65px;
-  font-weight: 400;
-  font-size: 20px;
 }
 
 .about {
