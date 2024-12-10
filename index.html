@@ -25,7 +25,6 @@
           </li>
         </ul>
       </nav>
-      <div>
         <a class="header__logo" href="#">
           <img
             class="header__logo-image"
@@ -33,15 +32,12 @@
             alt="Логотип"
           />
         </a>
-      </div>
-      <address class="address">
-        <div class="header__address">
+      <address class="address header__address">
           <a class="address__link" href="tel:+99995555555">+9 999 555 5555</a>
           <a class="address__link" href="mailto:info@sobaka.ge"
             >info@sobaka.ge</a
           >
           <p>наб. Принсенграхт 263- <br />265, Амстердам</p>
-        </div>
       </address>
     </header>
     <main>
@@ -66,46 +62,34 @@
           <p class="cover__description-text">
             Аукцион вещей, в которые никто не верил
           </p>
-          <button class="bet-button">Сделать ставку</button>
+          <button class="bet-button" type="button">Сделать ставку</button>
         </div>
       </section>
       <section class="lots">
-        <!--— вся секция -->
-        <h3 class="lots__heading">Лоты</h3>
-        <!--— заголовок секции -->
+        <h2 class="lots__heading">Лоты</h2>
         <ul class="lots__card-list">
-          <!--— список карточек -->
           <li class="lots__card-list-item">
-            <!--— пункт списка карточки -->
             <a class="card-link" href="#">
-              <!--— ссылка, обрамляющая карточку -->
               <article class="card card_type_film">
-                <!--— карточка /// классы, чтобы задать определённый фон каждой из карточек; -->
                 <div class="overlay"></div>
-                <h4 class="card__title">
+                <h3 class="card__title">
                   Фильм режиссёра, который бросил киношколу
-                </h4>
-                <!--— заголовок карточки -->
+                </h3>
                 <p class="card__text">
                   Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
                   ставка, если бы вы не знали, что режиссёр — Пол Томас
                   Андерсон?
                 </p>
-                <!--— текст карточки -->
               </article>
             </a>
           </li>
           <li class="lots__card-list-item">
-            <!--— пункт списка карточки -->
             <a class="card-link" href="#">
-              <!--— ссылка, обрамляющая карточку -->
               <article class="card card_type_book">
-                <!--— карточка /// классы, чтобы задать определённый фон каждой из карточек; -->
                 <div class="overlay"></div>
                 <h4 class="card__title">
                   Книга, где описан один скучный день из жизни рекламного агента
                 </h4>
-                <!--— заголовок карточки -->
                 <p class="card__text">
                   Объёмом почти в тысячу страниц. Иногда без знаков препинания и
                   с переходами на древнеанглийский. В ней одновременно
@@ -114,55 +98,41 @@
                   эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
                   Джеймса Джойса?
                 </p>
-                <!--— текст карточки -->
               </article>
             </a>
           </li>
           <li class="lots__card-list-item">
-            <!--— пункт списка карточки -->
             <a class="card-link" href="#">
-              <!--— ссылка, обрамляющая карточку -->
               <article class="card card_type_picture">
-                <!--— карточка /// классы, чтобы задать определённый фон каждой из карточек; -->
                 <div class="overlay"></div>
-                <h4 class="card__title">
+                <h5 class="card__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
-                </h4>
-                <!--— заголовок карточки -->
+                </h5>
                 <p class="card__text">
                   Ну действительно, там линия, тут кружочек, а здесь и вовсе
                   что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
                   котиков... Сколько бы вы на такое поставили, если бы не знали,
                   что это — одна из революционных работ Кандинского?
                 </p>
-                <!--— текст карточки -->
               </article>
             </a>
           </li>
         </ul>
         <a class="lots__look-more-link" href="#">посмотреть больше</a>
-        <!--— ссылка «Посмотреть больше -->
       </section>
       <section class="about">
-        <!--— вся секция -->
         <div class="about__column">
-          <!--— класс для колонок -->
           <div class="about__logo">
-            <!--— контейнер с логотипом -->
             <img
               class="about__logo-image"
               src="./images/logo-white.svg"
               alt="Логотип"
             />
-            <!--— изображение логотипа -->
           </div>
         </div>
         <div class="about__column">
-          <!--— класс для колонок -->
-          <h4 class="about__title">Об аукционе</h4>
-          <!--— заголовок секции -->
+          <h2 class="about__title">Об аукционе</h2>
           <div class="about__text">
-            <!--— блок для текстов секции -->
             <p>
               Здесь вы не встретите очередное пафосное собрание невероятно
               дорогого антиквариата. Наши лоты вообще не должны были попасть ни
@@ -184,15 +154,12 @@
       </section>
     </main>
     <footer class="footer">
-      <!--— подвал -->
-      <address class="address">
-        <div class="header__address">
+      <address class="address header__address">
           <a class="address__link" href="tel:+99995555555">+9 999 555 5555</a>
           <a class="address__link" href="mailto:info@sobaka.ge"
             >info@sobaka.ge</a
           >
           <p>наб. Принсенграхт 263- <br />265, Амстердам</p>
-        </div>
       </address>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
@@ -209,10 +176,14 @@
           </li>
         </ul>
       </nav>
-      <nav class="footer__social-list">
+      <div class="footer__social-list">
         <ul class="footer__social-list-item">
           <li class="footer__social-link">
-            <img class="footer__social-icon" src="./images/yt.svg" alt="Ютуб" />
+            <img 
+              class="footer__social-icon" 
+              src="./images/yt.svg" 
+              alt="Ютуб" 
+            />
           </li>
           <li class="footer__social-link">
             <img
@@ -229,7 +200,7 @@
             />
           </li>
         </ul>
-      </nav>
+      </div>
     </footer>
   </body>
 </html>
