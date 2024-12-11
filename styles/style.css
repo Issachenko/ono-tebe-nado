@@ -148,6 +148,7 @@ body {
 
 .lots__card-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 24px;
   height: 100%;
